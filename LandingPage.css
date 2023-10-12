@@ -1,0 +1,62 @@
+body {
+  background-color: rgba(8, 8, 202, 0.983);
+  color: white;
+  margin: 0 15vw;
+}
+.navbar {
+  display: flex;
+}
+
+.nav-item {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin: 0 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.body {
+  display: flex;
+}
+
+.paragraph {
+  width: 20vw;
+  margin-top: 5vh;
+}
+
+#h1 {
+  font-size: 2.5rem;
+}
+
+#p {
+  font-size: 1.2rem;
+}
+
+.form-page {
+  margin-top: 5vh;
+  margin-left: 20vw;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 3vh 5vw;
+}
+
+#h3 {
+  font-size: 2.1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+#checkbox {
+  margin: 0 1vw 0 0;
+  cursor: pointer;
+}
+
+input {
+  margin: 2vh 0;
+}
